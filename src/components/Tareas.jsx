@@ -64,7 +64,7 @@ const Tareas = () => {
     <>
       <form onSubmit={enviarFormulario}>
         <input name="nombreTarea" onChange={capturaInput} value={nombreTarea} />
-        <button>Agregar Tarea</button>
+        <button>Agregar Tarea Nueva</button>
       </form>
 
       <ul>
